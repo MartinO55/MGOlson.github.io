@@ -1,9 +1,9 @@
-header{
+header {
     background-color:grey;
-    height:100px;
-    color: aliceblue;
+    height:10%;
 }
-#abbreviatedInitials{
-  color: black;
+.abbreviatedInitials {
+  color: white;
   text-transform: capitalize;
+  display: inline-block;
 }
