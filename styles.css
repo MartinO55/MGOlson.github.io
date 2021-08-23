@@ -1,10 +1,9 @@
 header{
-    background-color:black;
-    height:200px;
-    margin: 3px;
+    background-color:grey;
+    height:100px;
+    color: aliceblue;
 }
 #abbreviatedInitials{
-    color: antiquewhite;
-    display: inline;
-    
+  color: black;
+  text-transform: capitalize;
 }
