@@ -1,0 +1,10 @@
+header{
+    background-color:black;
+    height:200px;
+    margin: 3px;
+}
+#abbreviatedInitials{
+    color: antiquewhite;
+    display: inline;
+    
+}
