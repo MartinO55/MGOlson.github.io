@@ -17,10 +17,16 @@ header {
 
 .Sidebar{
   border: 5px solid seagreen;
+  border-radius: 15px;
+  display: inline-block;
+  width: 25%;
 }
 
 .resumeContent{
   border:5px solid blue;
+  border-radius: 15px;
+  display: inline-block;
+  width: 70%;
 }
 
 .aboutMe{
