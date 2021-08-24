@@ -6,4 +6,34 @@ header {
   color: white;
   text-transform: capitalize;
   display: inline-block;
+  
+}
+
+.nameInTitle{
+  display: inline-block;
+  color: white;
+}
+
+.Sidebar{
+  border: 5px solid seagreen;
+}
+
+.resumeContent{
+  border:5px solid blue;
+}
+
+.aboutMe{
+  color: aqua;
+}
+
+.Education{
+  color: pink;
+}
+
+.Experience{
+  color: brown;
+}
+
+.Projects{
+  color: rosybrown;
 }
