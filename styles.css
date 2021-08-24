@@ -12,6 +12,7 @@ header {
 .nameInTitle{
   display: inline-block;
   color: white;
+  font-size: 3em;
 }
 
 .Sidebar{
