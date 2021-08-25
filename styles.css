@@ -23,14 +23,15 @@ header {
 .Sidebar{
   border: 5px solid seagreen;
   border-radius: 15px;
-  display: inline-block;
   width: 25%;
+  display: inline-flex;
 }
 
 .resumeContent{
   border:5px solid blue;
   border-radius: 15px;
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
   width: 70%;
 }
 
