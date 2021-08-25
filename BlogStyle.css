@@ -10,7 +10,28 @@ body{
   }
 
   .blogPosts{
-    display: inline-flex;
+    width:100%;
+    display: flex;
     flex-direction: column-reverse;
     padding: auto;
+    justify-content: left;
+    border: green 5px solid;
   }
+
+  .ABlogPost{
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      border: rgb(255, 0, 0) 5px solid;
+      justify-content: space-evenly;
+  }
+
+  .PostContent{
+      padding: auto;
+      border: springgreen 5px solid;
+  }
+
+  .PostImage{
+      max-width: 100%;
+      margin:1rem
+    }
