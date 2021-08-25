@@ -1,8 +1,21 @@
-header{
+.Heading{
   display: flex;
+  flex-direction: row;
 }
 
 body{
   font-family: 'Montserrat', sans-serif;
-  display: flex;
+  
 }
+
+  .Sidebar{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .resumeContent{
+    display: flex;
+    flex-direction: column;
+    column-count: auto;
+  
+  }
