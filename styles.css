@@ -1,69 +1,8 @@
+header{
+  display: flex;
+}
+
 body{
   font-family: 'Montserrat', sans-serif;
-}
-
-.Heading{
   display: flex;
-}
-header {
-    background-color:grey;
-    display: flex;
-    
-}
-.abbreviatedInitials {
-  color: white;
-  text-transform: capitalize;
-  display: inline-block;
-  
-}
-
-.nameInTitle{
-  display: inline-block;
-  color: white;
-  font-size: 3em;
-}
-
-.Sidebar{
-  border: 5px solid seagreen;
-  border-radius: 15px;
-  width: 25%;
-  display: inline-flex;
-  flex-direction: column;
-  padding:0.5rem; 
-}
-@media screen and (max-width:600px) {
-  .Sidebar{display: none;}
-}
-
-.Photo{
-  display: flex;
-}
-
-.resumeContent{
-  border:5px solid blue;
-  border-radius: 15px;
-  display: inline-flex;
-  flex-direction: column;
-  width: 70%;
-  padding: 0.5rem;
-}
-
-.aboutMe{
-  color: aqua;
-}
-
-.Education{
-  color: pink;
-}
-
-.Experience{
-  color: brown;
-}
-
-.Projects{
-  color: rosybrown;
-}
-
-.Skills{
-  color: blueviolet;
 }
