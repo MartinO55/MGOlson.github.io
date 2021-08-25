@@ -6,7 +6,7 @@ body{
   .BlogTitle{
       display: flex;
       flex-direction: row;
-
+        background-color: blanchedalmond;    
   }
 
   .blogPosts{
