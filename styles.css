@@ -69,7 +69,7 @@ body{
     .NavigationLinks{
       list-style-type: none;
     }
-      .NavigationLinks:hover{
+      .navigationLink:hover{/*makes the links jump. cause why not*/
         transform: translateX(-1rem);
       }
 
