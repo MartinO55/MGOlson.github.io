@@ -3,7 +3,7 @@
 
 body{
   /*font-family: 'Montserrat', sans-serif;*/
-  background-color: darkblue;
+  background-color: darkblue; /*this must change*/
   color: aliceblue;
 }
 
@@ -39,17 +39,18 @@ body{
 
       .introPage{
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: left;
+        flex-direction: row;
+        justify-content: space-between;
       }
 
   .LandingPage{
     display: flex;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
     align-content: center;
     align-self: center;
-    transform: translateX(7rem);/*hardcoding*/
+    padding-left: 1rem;
+    
   }  
 
 
@@ -69,7 +70,7 @@ body{
       list-style-type: none;
     }
       .NavigationLinks:hover{
-        transform: translateX(1rem);
+        transform: translateX(-1rem);
       }
 
   .resumeContent{
