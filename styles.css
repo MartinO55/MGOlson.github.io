@@ -1,21 +1,78 @@
-.Heading{
-  display: flex;
-  flex-direction: row;
-}
+
+/*Need Media Breakpoints*/
 
 body{
-  font-family: 'Montserrat', sans-serif;
-  
+  /*font-family: 'Montserrat', sans-serif;*/
+  background-color: darkblue;
+  color: aliceblue;
 }
 
-  .Sidebar{
-    display: flex;
-    flex-direction: column;
+  .Heading{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
   }
 
-  .resumeContent{
+    .Logo{
+     color: aliceblue;
+    }
+
+    .Navigation{
+      display: grid;/*I gave up trying to make this work with flex*/
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+      .aboutMe{
+        color: aliceblue;/*This color is just to get rid of the error messages in the IDE*/
+      }
+
+      .myProjects{
+        color: aliceblue;
+      }
+
+      .myBlog{
+        color: aliceblue;
+      }
+
+      .introPage{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left;
+      }
+
+  .LandingPage{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    transform: translateX(7rem);/*hardcoding*/
+  }  
+
+
+  .Sidebar{
+    color: aliceblue;
     display: flex;
     flex-direction: column;
-    column-count: auto;
-  
+    align-self: auto;
+    
+  }
+
+    .photoOfMe{
+      border-radius: 90px;
+    }
+
+    .NavigationLinks{
+      list-style-type: none;
+    }
+      .NavigationLinks:hover{
+        transform: translateX(1rem);
+      }
+
+  .resumeContent{
+    color: aliceblue;
+ 
   }
