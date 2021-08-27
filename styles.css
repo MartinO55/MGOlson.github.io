@@ -69,8 +69,26 @@ body{
     align-content: center;
     align-self: center;
     padding-left: 2rem;
+    font-size: 300%;
+    -webkit-transition: 2s;
     
   }  
+
+
+    .LandingPage:hover{
+      font-size: 350%;
+      transition: 3s;
+    }
+
+    .primaryHeading:hover{
+      color: #6E85B2 ;
+      transform: 0.5s;
+      
+    }
+    .blurb:hover{
+      color: #5C527F;
+      transform: 0.5s;
+    }
 
 
   .Sidebar{
@@ -78,12 +96,18 @@ body{
     display: flex;
     flex-direction: column;
     align-self: auto;
-    padding-right: 1rem;
-    
+    padding-right: 3rem;
+    padding-top: 2rem;
+    -webkit-transition: 2s;
+  }
+  .Sidebar:hover{
+    transform: scale(220%);
+    transition: 1.5s;
   }
 
     .photoOfMe{
       border-radius: 90px;/*this will change with the new photo*/
+      padding-bottom: 1rem;
     }
     .SidebarLinks{
       display: inline-flex;
@@ -93,17 +117,18 @@ body{
     .SocialLinks{
       list-style-type: none;
       display: flex;
-      flex-direction: column-reverse; /*fixes the bug in the email icon*/
-      
+      flex-direction: column-reverse; /*fixes the bug in the email icon*/    
     }
 
       .SocialLinks:hover{/*makes the links jump. cause why not*/
-        transform: translateX(-0.2rem);
+        transform: translateX(-2rem);
+        transform: scale(150%);
+        transition: 0.5s;
       }
 
       .linkedInLogo{ /*Formating for the link Icons*/
         border-radius: 4px;
-        
+       
       }
       .GithubLogo{
         border-radius: 4px;

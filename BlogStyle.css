@@ -1,13 +1,15 @@
 body{
-    font-family: 'Montserrat', sans-serif; /*same google font as the rest, possibly should be comic sans*/
+  font-family: 'Roboto Condensed', sans-serif; /*same google font as the rest, possibly should be comic sans*/
     padding: auto;
     margin: 1rem;
+    background-color: #02052e; 
+    color: #e8eaff;
   }
 
   .BlogTitle{
       display: flex;
       flex-direction: row;
-        background-color: blanchedalmond;
+        
         margin: 1rem; 
         padding: 1rem;   
   }
