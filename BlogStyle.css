@@ -6,6 +6,51 @@ body{
     color: #e8eaff;
   }
 
+  .Heading{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+  }
+
+    .Logo{
+     color: #e8eaff;
+     text-align: center;
+    }
+
+    .Navigation{
+      display: grid;/*I gave up trying to make this work with flex*/
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .aboutMe{
+      text-align: center;
+      color: #e8eaff;
+    }
+
+    .myProjects{
+      text-align: center;
+    }
+
+    .myBlog{
+      text-align: center;
+    }
+
+    .NavigationLink:visited{
+      color: #e8eaff;
+      text-decoration-style: none;
+    }
+
+      .myProjects{
+        color: a#e8eaff;
+      }
+
+      .myBlog{
+        color: #e8eaff;
+      }
+
   .BlogTitle{
       display: flex;
       flex-direction: row;
@@ -25,9 +70,9 @@ body{
 
   .ABlogPost{/*about halfway through I realised that numbering the blog posts was just creating a massive ammount of copy and paste code, so I rewrote the variables in the HTML file to reflect what Needed to be displayed*/
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
      
-      border: red 5px solid; /*if I'm committng the 90s aesthetic, I'm committing all the way*/
+      border: #709FB0 5px solid; /*if I'm committng the 90s aesthetic, I'm committing all the way*/
       justify-content: space-evenly;
   }
 
