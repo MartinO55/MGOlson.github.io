@@ -3,9 +3,12 @@
 
 body{
   /*font-family: 'Montserrat', sans-serif;*/
-  background-color: darkblue; /*this must change*/
-  color: aliceblue;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #02052e; /*needs mild some noise, which would have to be made in blender, placed as a transparent background, or some other really annoying option*/
+  color: #e8eaff;
 }
+
+
 
   .Heading{
     width: 100%;
@@ -17,7 +20,7 @@ body{
   }
 
     .Logo{
-     color: aliceblue;
+     color: #e8eaff;
      text-align: center;
     }
 
@@ -26,22 +29,37 @@ body{
       grid-template-columns: 1fr 1fr 1fr;
     }
 
-      .aboutMe{
-        color: aliceblue;/*This color is just to get rid of the error messages in the IDE*/
-      }
+    .aboutMe{
+      text-align: center;
+      color: #e8eaff;
+    }
+
+    .myProjects{
+      text-align: center;
+    }
+
+    .myBlog{
+      text-align: center;
+    }
+
+    .NavigationLink:visited{
+      color: #e8eaff;
+      text-decoration-style: none;
+    }
 
       .myProjects{
-        color: aliceblue;
+        color: a#e8eaff;
       }
 
       .myBlog{
-        color: aliceblue;
+        color: #e8eaff;
       }
 
       .introPage{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        padding-top: 6rem;
       }
 
   .LandingPage{
@@ -50,29 +68,49 @@ body{
     flex-direction: column;
     align-content: center;
     align-self: center;
-    padding-left: 1rem;
+    padding-left: 2rem;
     
   }  
 
 
   .Sidebar{
-    color: aliceblue;
+    color: #e8eaff;
     display: flex;
     flex-direction: column;
     align-self: auto;
+    padding-right: 1rem;
     
   }
 
     .photoOfMe{
-      border-radius: 90px;
+      border-radius: 90px;/*this will change with the new photo*/
+    }
+    .SidebarLinks{
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: right;
+    }
+    .SocialLinks{
+      list-style-type: none;
+      display: flex;
+      flex-direction: column-reverse; /*fixes the bug in the email icon*/
+      
     }
 
-    .NavigationLinks{
-      list-style-type: none;
-    }
-      .navigationLink:hover{/*makes the links jump. cause why not*/
-        transform: translateX(-1rem);
+      .SocialLinks:hover{/*makes the links jump. cause why not*/
+        transform: translateX(-0.2rem);
       }
+
+      .linkedInLogo{ /*Formating for the link Icons*/
+        border-radius: 4px;
+        
+      }
+      .GithubLogo{
+        border-radius: 4px;
+      }
+      .emailIcon{
+        border-radius: 4px;
+        }
 
   .resumeContent{
     color: aliceblue;

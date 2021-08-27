@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> <!--Need a real font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> <!--Need a real font-->
     <title>Martin Olson</title>
 
 </head>    
@@ -22,9 +24,9 @@
         </div>
         <div class ="Navigation">
              <!-- Internal Navbar goes here-->
-            <h3 class ="aboutMe"><a href="AboutMe.html">About Me</a></h3>
-            <h3 class ="myProjects"><a href="MyProjects.html">My Projects</a></h3>
-            <h3 class="myBlog"><a href ="blog.html">My Blog</a></h3><!--delete Me once the project is submitted-->  
+            <h3 class ="aboutMe"><a class="NavigationLink" href="AboutMe.html">About Me</a></h3>
+            <h3 class ="myProjects"><a class="NavigationLink" href="MyProjects.html">My Projects</a></h3>
+            <h3 class="myBlog"><a class="NavigationLink" href ="blog.html">My Blog</a></h3><!--delete Me once the project is submitted-->  
         </div>
     </header>
     <main class="introPage">
@@ -38,13 +40,13 @@
     
         <div class ="Sidebar">
             <Section class ="Photo"><!--Maybe send the photo to the logo?-->
-            <img class="photoOfMe" src="A cat.jpg" alt="Placeholder image of a cat" width =200><!--the photo is mandatory for the assignment-->
-            </Section>
-            <ul class="NavigationLinks">
-                <li class="navigationLink">Contact Details <!--Email link-->
-                <li class="navigationLink"><a href="https://github.com/MartinO55">My Github Profile</a> <!--links are fine, make these icons-->
-                <li class="navigationLink"><a href="https://www.linkedin.com/in/olsonmartin/">My Linkedin</a>
-                <li class="navigationLink"><a href="Martin Olson CV updated Jan02.pdf">My CV</a>
+            <img class="photoOfMe" src="./Photos/professionalPhoto.png" alt="MoreProfessionalPhoto" width =90><!--the photo is mandatory for the assignment-->
+            </Section class ="SidebarLinks">
+            <ul class="SocialLinks">
+                <li class="SocialLinks"><img class="emailIcon" src="./Icons for links/emailIcon.png" width=20></li><!--Email link-->
+                <li class="SocialLinks"><a href="https://github.com/MartinO55"><img class ="GithubLogo" src ="./Icons for links/GithubLogo.png" width=20></a> </li><!--links are fine, make these icons-->
+                <li class="SocialLinks"><a href="https://www.linkedin.com/in/olsonmartin/"><img class="linkedInLogo" src="./Icons for links/linkedinicon.png" width =20></a></li>
+                <li class="SocialLinks"><a href="Martin Olson CV updated Jan02.pdf"><img class ="pdfLogo" src="./Icons for links/pdfIcon.png" width=20></a></li>
             </ul>
         </div>
     </main>
