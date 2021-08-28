@@ -1,22 +1,19 @@
 
 /*Need Media Breakpoints*/
-
+/*Universal Body Modifier*/
 body{
   /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #02052e; /*needs mild some noise, which would have to be made in blender, placed as a transparent background, or some other really annoying option*/
   color: #e8eaff;
 }
-
-
-
+/*standard heading/navbar*/
   .Heading{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 3fr;
-
   }
 
     .Logo{
@@ -27,11 +24,12 @@ body{
     .Navigation{
       display: grid;/*I gave up trying to make this work with flex*/
       grid-template-columns: 1fr 1fr 1fr;
+      font-size: 150%;
+      color: #e8eaff;
     }
 
     .aboutMe{
       text-align: center;
-      color: #e8eaff;
     }
 
     .myProjects{
@@ -62,6 +60,7 @@ body{
         padding-top: 6rem;
       }
 
+/*Landing Page CSS Code*/
   .LandingPage{
     display: flex;
     text-align: left;
@@ -70,10 +69,9 @@ body{
     align-self: center;
     padding-left: 2rem;
     font-size: 300%;
+    transition: 2s;
     -webkit-transition: 2s;
-    
   }  
-
 
     .LandingPage:hover{
       font-size: 350%;
@@ -90,7 +88,6 @@ body{
       transform: 0.5s;
     }
 
-
   .Sidebar{
     color: #e8eaff;
     display: flex;
@@ -98,10 +95,12 @@ body{
     align-self: auto;
     padding-right: 3rem;
     padding-top: 2rem;
+    transition: 2s;
     -webkit-transition: 2s;
   }
+
   .Sidebar:hover{
-    transform: scale(220%);
+    transform: scale(220%) translateX(-1rem);
     transition: 1.5s;
   }
 
@@ -128,7 +127,6 @@ body{
 
       .linkedInLogo{ /*Formating for the link Icons*/
         border-radius: 4px;
-       
       }
       .GithubLogo{
         border-radius: 4px;
@@ -136,12 +134,69 @@ body{
       .emailIcon{
         border-radius: 4px;
         }
-
+/*About Me CSS Section*/
   .resumeContent{
     color: #e8eaff;
- 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+/*Portfolio CSS Section*/
+.PortfolioProjectTitleSection{
+text-align: center;
+
+}
+
+.PortfolioProjectSection{
+  display:inline-flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-around;
+}
+
+  .PortfolioProject{
+    color: #e8eaff;
+    justify-self: stretch;
+    flex-direction: row;
+    max-width: 15rem;
+    padding: 2rem;
   }
 
-  .PortfolioProjects{
-    color: #e8eaff;
+
+/*Blog CSS Section*/
+  .BlogTitle{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem; 
+    padding: 1rem;   
+}
+
+.blogPosts{ /*I'm undecided on whether the column-reverse is the best choice here. I think it technically satisfies the requirements, and it would work if the blog was built organically over time*/
+  width:100%;
+  display: flex;
+  flex-direction: column-reverse; /*So this is the simplest way to reorder the posts there is, but as long as you just add to the bottom of the HTML file it will always work*/
+  padding: auto;
+  justify-content: left;
+}
+
+.ABlogPost{/*about halfway through I realised that numbering the blog posts was just creating a massive ammount of copy and paste code, so I rewrote the variables in the HTML file to reflect what Needed to be displayed*/
+    display: flex;
+    flex-direction: column;
+    border: #709FB0 5px solid; /*if I'm committng the 90s aesthetic, I'm committing all the way*/
+    justify-content: space-evenly;
+}
+
+.PostContent{
+    padding: auto;
+}
+
+.PostImage{
+    max-width: 100%;
+    margin:1rem;
+    padding: auto;
+  }
+
+  .postTitle{
+     margin-left: 1rem;
+      padding: auto;
   }
