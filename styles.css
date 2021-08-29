@@ -1,67 +1,83 @@
-
 /*Need Media Breakpoints*/
+
+
 /*Universal Body Modifier*/
-body{
-  /*font-family: 'Montserrat', sans-serif;*/
-  font-family: 'Roboto Condensed', sans-serif;
-  background-color: #02052e; /*needs mild some noise, which would have to be made in blender, placed as a transparent background, or some other really annoying option*/
-  color: #e8eaff;
+
+body {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #02052e;
+    /*needs mild some noise, which would have to be made in blender, placed as a transparent background, or some other really annoying option*/
+    color: #e8eaff;
 }
+
+
 /*standard heading/navbar*/
-  .Heading{
+
+.Heading {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 3fr;
-  }
+}
 
-    .Logo{
-     color: #e8eaff;
-     text-align: center;
-    }
+.Logo {
+    color: #e8eaff;
+    text-align: center;
+    font-size: 150%;
+    display: flex;
+}
 
-    .Navigation{
-      display: grid;/*I gave up trying to make this work with flex*/
-      grid-template-columns: 1fr 1fr 1fr;
-      font-size: 150%;
-      color: #e8eaff;
-    }
+.initalsLogo {
+    padding: 1rem;
+    background-color: #6E85B2;
+}
 
-    .aboutMe{
-      text-align: center;
-    }
+.Navigation {
+    display: grid;
+    /*I gave up trying to make this work with flex*/
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 150%;
+    color: #e8eaff;
+}
 
-    .myProjects{
-      text-align: center;
-    }
+.aboutMe {
+    text-align: center;
+}
 
-    .myBlog{
-      text-align: center;
-    }
+.myProjects {
+    text-align: center;
+}
 
-    .NavigationLink:visited{
-      color: #e8eaff;
-      text-decoration-style: none;
-    }
+.myBlog {
+    text-align: center;
+}
 
-      .myProjects{
-        color: a#e8eaff;
-      }
+.NavigationLink:visited {
+    color: #e8eaff;
+    text-decoration-style: none;
+}
 
-      .myBlog{
-        color: #e8eaff;
-      }
+.myProjects {
+    color: a#e8eaff;
+}
 
-      .introPage{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-top: 6rem;
-      }
+.myBlog {
+    color: #e8eaff;
+}
+
+.introPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 6rem;
+}
+
 
 /*Landing Page CSS Code*/
-  .LandingPage{
+
+.LandingPage {
     display: flex;
     text-align: left;
     flex-direction: column;
@@ -71,24 +87,24 @@ body{
     font-size: 300%;
     transition: 2s;
     -webkit-transition: 2s;
-  }  
+}
 
-    .LandingPage:hover{
-      font-size: 350%;
-      transition: 3s;
-    }
+.LandingPage:hover {
+    font-size: 350%;
+    transition: 3s;
+}
 
-    .primaryHeading:hover{
-      color: #6E85B2 ;
-      transform: 0.5s;
-      
-    }
-    .blurb:hover{
-      color: #5C527F;
-      transform: 0.5s;
-    }
+.primaryHeading:hover {
+    color: #6E85B2;
+    transform: 0.5s;
+}
 
-  .Sidebar{
+.blurb:hover {
+    color: #5C527F;
+    transform: 0.5s;
+}
+
+.Sidebar {
     color: #e8eaff;
     display: flex;
     flex-direction: column;
@@ -97,106 +113,124 @@ body{
     padding-top: 2rem;
     transition: 2s;
     -webkit-transition: 2s;
-  }
+}
 
-  .Sidebar:hover{
+.Sidebar:hover {
     transform: scale(220%) translateX(-1rem);
     transition: 1.5s;
-  }
+}
 
-    .photoOfMe{
-      border-radius: 90px;/*this will change with the new photo*/
-      padding-bottom: 1rem;
-    }
-    .SidebarLinks{
-      display: inline-flex;
-      flex-direction: column;
-      justify-content: right;
-    }
-    .SocialLinks{
-      list-style-type: none;
-      display: flex;
-      flex-direction: column-reverse; /*fixes the bug in the email icon*/    
-    }
+.photoOfMe {
+    border-radius: 90px;
+    /*this will change with the new photo*/
+    padding-bottom: 1rem;
+}
 
-      .SocialLinks:hover{/*makes the links jump. cause why not*/
-        transform: translateX(-2rem);
-        transform: scale(150%);
-        transition: 0.5s;
-      }
+.SidebarLinks {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: right;
+}
 
-      .linkedInLogo{ /*Formating for the link Icons*/
-        border-radius: 4px;
-      }
-      .GithubLogo{
-        border-radius: 4px;
-      }
-      .emailIcon{
-        border-radius: 4px;
-        }
+.SocialLinks {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column-reverse;
+    /*fixes the bug in the email icon*/
+}
+
+.SocialLinks:hover {
+    /*makes the links jump. cause why not*/
+    transform: translateX(-2rem);
+    transform: scale(150%);
+    transition: 0.5s;
+}
+
+.linkedInLogo {
+    /*Formating for the link Icons*/
+    border-radius: 4px;
+}
+
+.GithubLogo {
+    border-radius: 4px;
+}
+
+.emailIcon {
+    border-radius: 4px;
+}
+
+
 /*About Me CSS Section*/
-  .resumeContent{
+
+.resumeContent {
     color: #e8eaff;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
+
+
 /*Portfolio CSS Section*/
-.PortfolioProjectTitleSection{
-text-align: center;
 
+.PortfolioProjectTitleSection {
+    text-align: center;
 }
 
-.PortfolioProjectSection{
-  display:inline-flex;
-  flex-wrap: wrap;
-  max-width: 100%;
-  justify-content: space-around;
+.PortfolioProjectSection {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-around;
 }
 
-  .PortfolioProject{
+.PortfolioProject {
     color: #e8eaff;
     justify-self: stretch;
     flex-direction: row;
     max-width: 15rem;
     padding: 2rem;
-  }
+}
 
 
 /*Blog CSS Section*/
-  .BlogTitle{
+
+.BlogTitle {
     display: flex;
     flex-direction: row;
-    margin: 1rem; 
-    padding: 1rem;   
+    margin: 1rem;
+    padding: 1rem;
 }
 
-.blogPosts{ /*I'm undecided on whether the column-reverse is the best choice here. I think it technically satisfies the requirements, and it would work if the blog was built organically over time*/
-  width:100%;
-  display: flex;
-  flex-direction: column-reverse; /*So this is the simplest way to reorder the posts there is, but as long as you just add to the bottom of the HTML file it will always work*/
-  padding: auto;
-  justify-content: left;
+.blogPosts {
+    /*I'm undecided on whether the column-reverse is the best choice here. I think it technically satisfies the requirements, and it would work if the blog was built organically over time*/
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    /*So this is the simplest way to reorder the posts there is, but as long as you just add to the bottom of the HTML file it will always work*/
+    padding: auto;
+    justify-content: left;
 }
 
-.ABlogPost{/*about halfway through I realised that numbering the blog posts was just creating a massive ammount of copy and paste code, so I rewrote the variables in the HTML file to reflect what Needed to be displayed*/
+.ABlogPost {
+    /*about halfway through I realised that numbering the blog posts was just creating a massive ammount of copy and paste code, so I rewrote the variables in the HTML file to reflect what Needed to be displayed*/
     display: flex;
     flex-direction: column;
-    border: #709FB0 5px solid; /*if I'm committng the 90s aesthetic, I'm committing all the way*/
+    border: #709FB0 5px solid;
+    /*if I'm committng the 90s aesthetic, I'm committing all the way*/
     justify-content: space-evenly;
 }
 
-.PostContent{
+.PostContent {
     padding: auto;
 }
 
-.PostImage{
+.PostImage {
     max-width: 100%;
-    margin:1rem;
+    margin: 1rem;
     padding: auto;
-  }
+}
 
-  .postTitle{
-     margin-left: 1rem;
-      padding: auto;
-  }
+.postTitle {
+    margin-left: 1rem;
+    padding: auto;
+}
