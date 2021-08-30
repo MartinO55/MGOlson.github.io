@@ -191,6 +191,10 @@ body {
     padding: 2rem;
 }
 
+.PortfolioPic{
+    border-radius: 90px;
+}
+
 
 /*Blog CSS Section*/
 
@@ -216,7 +220,6 @@ body {
     display: flex;
     flex-direction: column;
     border: #709FB0 5px solid;
-    /*if I'm committng the 90s aesthetic, I'm committing all the way*/
     justify-content: space-evenly;
 }
 
