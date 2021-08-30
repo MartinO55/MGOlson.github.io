@@ -1,3 +1,7 @@
+/*Need browser Breakpoints too apparently*/
+/*TODO - figure out why firefox resizes the landing page and the CV page, but not the others*/
+/*TODO - make sure edge and chrome stop auto starting animations*/
+
 /*Need Media Breakpoints*/
 
 
@@ -9,6 +13,8 @@ body {
     background-color: #02052e;
     /*needs mild some noise, which would have to be made in blender, placed as a transparent background, or some other really annoying option*/
     color: #e8eaff;
+   overflow-x: hidden;
+   
 }
 
 
@@ -27,11 +33,13 @@ body {
     text-align: center;
     font-size: 150%;
     display: flex;
+   
 }
 
 .initalsLogo {
     padding: 1rem;
     background-color: #6E85B2;
+    border-radius: 15px;
 }
 
 .Navigation {
@@ -42,16 +50,45 @@ body {
     color: #e8eaff;
 }
 
+
 .aboutMe {
-    text-align: center;
+    padding-top: 3rem;
+    text-align: center;   
 }
+    .aboutMe:hover{
+        background-color: #5C527F;
+        border-radius: 10px;
+    }
 
 .myProjects {
+    padding-top: 3rem;
     text-align: center;
 }
+    .myProjects:hover{
+        background-color: #5C527F;
+        border-radius: 10px;
+    }
 
 .myBlog {
+    padding-top: 3rem;
     text-align: center;
+}
+    .myBlog:hover{
+        background-color: #5C527F;
+        border-radius: 10px;
+    }
+
+    .NavigationLink{
+        font-size: 20px;
+    }
+
+.LandingPageLink{
+    padding-top: 3rem;
+    text-align: center;
+}
+.LandingPageLink:hover{
+    background-color: #5C527F;
+    border-radius: 10px;
 }
 
 .NavigationLink:visited {
@@ -87,6 +124,7 @@ body {
     font-size: 300%;
     transition: 2s;
     -webkit-transition: 2s;
+   
 }
 
 .LandingPage:hover {
@@ -172,6 +210,10 @@ body {
 
 /*Portfolio CSS Section*/
 
+.aboutMeTitleSection{
+    text-align: center;
+}
+
 .PortfolioProjectTitleSection {
     text-align: center;
 }
@@ -191,8 +233,13 @@ body {
     padding: 2rem;
 }
 
+.PortfolioProject:hover{
+    background-color: #5C527F;
+    border-radius: 10px;
+}
+
 .PortfolioPic{
-    border-radius: 90px;
+    border-radius: 10px;
 }
 
 
