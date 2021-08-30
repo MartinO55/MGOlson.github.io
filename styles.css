@@ -10,7 +10,9 @@ body {
     font-family: 'Roboto Condensed', sans-serif;/*google font choice. this can always change later*/
     background-color: #02052e;/*dark blue. I think it needs to be broken up with a background pic or with some mouse effects, or a noise modifier, or some combination of the above*/
     color: #e8eaff;/*contrasts nicely*/
-   overflow-x: hidden;/*attempt number one to fix the scale issue with firefox. It didn't work*/ 
+  /* overflow-x: hidden;/*attempt number one to fix the scale issue with firefox. It didn't work*/ 
+    width: 95vw;/*so this solves the changing width problem on Firefox and edge (thankyou Michael), but not on chrome*/
+    padding: 1rem;
 }
 
 /*standard heading/navbar*/
@@ -250,6 +252,7 @@ body {
     flex-direction: row;
     margin: 1rem;
     padding: 1rem;
+    padding-right: 1rem;
 }
 
 .blogPosts {
@@ -258,7 +261,6 @@ body {
     display: flex;
     flex-direction: column-reverse;
     /*So this is the simplest way to reorder the posts there is, but as long as you just add to the bottom of the HTML file it will always work*/
-    padding: auto;
     justify-content: left;
 }
 
