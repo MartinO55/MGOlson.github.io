@@ -1,47 +1,40 @@
 /*Need browser Breakpoints too apparently*/
-/*TODO - figure out why firefox resizes the landing page and the CV page, but not the others*/
+/*TODO - figure out why firefox resizes the landing page and the CV page, but not the other pages*/
 /*TODO - make sure edge and chrome stop auto starting animations*/
 
 /*Need Media Breakpoints*/
 
 
 /*Universal Body Modifier*/
-
 body {
-    /*font-family: 'Montserrat', sans-serif;*/
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: #02052e;
-    /*needs mild some noise, which would have to be made in blender, placed as a transparent background, or some other really annoying option*/
-    color: #e8eaff;
-   overflow-x: hidden;
-   
+    font-family: 'Roboto Condensed', sans-serif;/*google font choice. this can always change later*/
+    background-color: #02052e;/*dark blue. I think it needs to be broken up with a background pic or with some mouse effects, or a noise modifier, or some combination of the above*/
+    color: #e8eaff;/*contrasts nicely*/
+   overflow-x: hidden;/*attempt number one to fix the scale issue with firefox. It didn't work*/ 
 }
 
-
 /*standard heading/navbar*/
-
 .Heading {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: grid;/*I was trying to make this sit evenly with flex, but it just wouldn't go evenly, or it would leave awkward blocks for the logo */
+    grid-template-columns: 1fr 3fr;/*So I used grid instead. it just worked. It occurred to me later that I could have tried using empty HTML objects for flex, but I'm not sure thats valid*/
 }
 
-.Logo {
-    color: #e8eaff;
+.Logo {/*just the box for the logo, maybe odepreciable now, but may want it back later*/
     text-align: center;
     font-size: 150%;
     display: flex;
 }
 
-.initalsLogo {
+.initalsLogo {/* there does need to be a logo here, I'm just not sure it should be THIS logo. it could be a single pic, or some variant on this somehow*/
     padding: 1rem;
     background-color: #6E85B2;
     border-radius: 15px;
-    transition: 2s;
+    transition: 2s;/* provides a transition value to make the object sink back gradually when the :hover effect is stopped. this is used on everything with a hover animation*/
 }
-    .initalsLogo:hover{
+    .initalsLogo:hover{/*changes the background colour on the logo while you mouse over it*/
         background-color:#5C527F;
         transition: 2s;
     }
@@ -54,12 +47,13 @@ body {
     color: #e8eaff;
 }
 
-
+/*I think this set should be a single unified class, because I can see repeated code and thats bad - BUT, given the issues with navbar sizingm I am not willing to tuch this right now*/
+/*NavBar Link Formatting*/
 .aboutMe {
-    padding-top: 3rem;
+    padding-top: 3rem;/*formatting for the navigation links*/
     text-align: center;   
 }
-    .aboutMe:hover{
+    .aboutMe:hover{/*more hover. I'm not overusing it*/
         background-color: #5C527F;
         border-radius: 10px;
     }
@@ -90,35 +84,33 @@ body {
     padding-top: 3rem;
     text-align: center;
 }
-.LandingPageLink:hover{
-    background-color: #5C527F;
-    border-radius: 10px;
-}
+    .LandingPageLink:hover{
+        background-color: #5C527F;
+        border-radius: 10px;
+    }
 
 .NavigationLink:visited {
-    color: #e8eaff;
+    color: #e8eaff;/*re colours the link back to white. leaving them purple seemed a bit unprofessional*/
     text-decoration-style: none;
 }
 
 .myProjects {
-    color: a#e8eaff;
+    color: #e8eaff;
 }
 
 .myBlog {
     color: #e8eaff;
 }
 
+/*Landing Page CSS Code*/
 .introPage {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;/*I couldn't figure out how to anchor the boxes asymetrically without leaving empty HTML items or grid squares, so this is my work around. it also rescales nicely as the disply size changes*/
     padding-top: 6rem;
 }
 
-
-/*Landing Page CSS Code*/
-
-.LandingPage {
+.LandingPage {/* base for the landing page (ie the box holding Hi, Im Martin, I make stuff for the web"*/
     display: flex;
     text-align: left;
     flex-direction: column;
@@ -131,25 +123,24 @@ body {
    
 }
 
-.LandingPage:hover {
+.LandingPage:hover {/*Makes the text on the landing page resize when you hover over it*/
     font-size: 350%;
     transition: 3s;
 }
 
-.primaryHeading:hover {
+.primaryHeading:hover {/*changes the color of all the words in the "Hi Im Martin" change colour on hover. I tried it witha all the letters, but the separation due to the separate spans made it look weird*/
     color: #6E85B2;
     transform: 0.5s;
 }
 
-.blurb:hover {
+.blurb:hover {/*changes the color of all the words in the "I make stuff for the web" on hover*/
     color: #5C527F;
     transform: 0.5s;
 }
 
-.Sidebar {
-    color: #e8eaff;
+.Sidebar {  
     display: flex;
-    flex-direction: column;
+    flex-direction: column;/*lets me put this section into a column so it looks like a sidebar as opposed to a weird box*/
     align-self: auto;
     padding-right: 3rem;
     padding-top: 2rem;
@@ -157,12 +148,12 @@ body {
     -webkit-transition: 2s;
 }
 
-.Sidebar:hover {
+.Sidebar:hover {/*rescales the sidebar and moves it so it doesn't scale offscreen*/
     transform: scale(220%) translateX(-1rem);
     transition: 1.5s;
 }
 
-.photoOfMe {
+.photoOfMe {/*A mildly more, if somewha tout of date, photo of me for the front page. I don't think this makes the final cut, but a professional photo is a way off*/
     border-radius: 90px;
     /*this will change with the new photo*/
     padding-bottom: 1rem;
@@ -170,27 +161,26 @@ body {
 
 .SidebarLinks {
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: column;/*does the column thing*/
     justify-content: right;
 }
 
 .SocialLinks {
     list-style-type: none;
     display: flex;
-    flex-direction: column-reverse;
-    /*fixes the bug in the email icon*/
+    flex-direction: column-reverse;  /*fixes the bug in the email icon displaying as though it has no border, and you don't notice it this way*/
+   
 }
 
 .SocialLinks:hover {
-    /*makes the links jump. cause why not*/
+    /*makes the links jump and resize. cause why not*/
     transform: translateX(-2rem);
     transform: scale(150%);
     transition: 0.5s;
 }
-
+/*Formating for the link Icons*/
 .linkedInLogo {
-    /*Formating for the link Icons*/
-    border-radius: 4px;
+    border-radius: 4px;/*Makes the icon borders soft and curvy*/
 }
 
 .GithubLogo {
@@ -201,49 +191,55 @@ body {
     border-radius: 4px;
 }
 
+/*About Me CSS Section. Something in here is making firefox chuck a hissy fit with the window size*/
 
-/*About Me CSS Section*/
-
-.resumeContent {
+.resumeContent {/*keeps the sections aligned*/
     color: #e8eaff;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.ListOfSkills{
+    list-style-type: square;/*no reason for this format in particular*/
+}
+
+.aboutMeTitleSection{
+    text-align: center;/*moves the title to the center.*/
+}
 
 /*Portfolio CSS Section*/
 
-.aboutMeTitleSection{
-    text-align: center;
-}
-
 .PortfolioProjectTitleSection {
-    text-align: center;
+    text-align: center;/*brings the title to center*/
 }
 
-.PortfolioProjectSection {
+.PortfolioProjectSection {/*box that holds all the different projects*/
     display: inline-flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;/*wraps them*/
     max-width: 100%;
-    justify-content: space-around;
+    justify-content: space-around;/*this option of the three looked the best (out of evenly and between)*/
 }
 
-.PortfolioProject {
-    color: #e8eaff;
+.PortfolioProject {/*the box for each project*/
     justify-self: stretch;
     flex-direction: row;
-    max-width: 15rem;
+    max-width: 15rem;/*hard coding bad, but this made it fit, and the lorem ipsum seems to like it*/
     padding: 2rem;
+    transition: 0.5s;
 }
 
-.PortfolioProject:hover{
+.PortfolioProject:hover{/*changes the background color for each project */
     background-color: #5C527F;
-    border-radius: 10px;
+    border-radius: 10px;/*also curves the borders. theres no reason this can't be here since the border color doesn't change any other time, but if the change is really it does fade in a curve*/
+    transition: 0.5s;/*see above comment, the change is not really slow*/
 }
 
-.PortfolioPic{
+.PortfolioPic{/*currently just makes the cats a little more comfortable*/
     border-radius: 10px;
+}
+.externalLinkIcon{
+    border-radius: 4px;/*makes the link out icoon curvy*/
 }
 
 
@@ -276,6 +272,7 @@ body {
 
 .PostContent {
     padding: auto;
+    margin: 1rem;
 }
 
 .PostImage {
