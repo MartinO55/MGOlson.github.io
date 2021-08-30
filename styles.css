@@ -33,14 +33,18 @@ body {
     text-align: center;
     font-size: 150%;
     display: flex;
-   
 }
 
 .initalsLogo {
     padding: 1rem;
     background-color: #6E85B2;
     border-radius: 15px;
+    transition: 2s;
 }
+    .initalsLogo:hover{
+        background-color:#5C527F;
+        transition: 2s;
+    }
 
 .Navigation {
     display: grid;

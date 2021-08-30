@@ -21,6 +21,8 @@ body{
      text-align: center;
     }
 
+     
+
     .Navigation{
       display: grid;/*I gave up trying to make this work with flex*/
       grid-template-columns: 1fr 1fr 1fr;
