@@ -21,11 +21,10 @@ body {
     display: grid;/*I was trying to make this sit evenly with flex, but it just wouldn't go evenly, or it would leave awkward blocks for the logo */
     grid-template-columns: 1fr 3fr;/*So I used grid instead. it just worked. It occurred to me later that I could have tried using empty HTML objects for flex, but I'm not sure thats valid*/
 }
-
-.Logo {/*just the box for the logo, maybe odepreciable now, but may want it back later*/
+.Logo {/*just the box for the logo, maybe depreciable now, but may want it back later*/
     text-align: center;
     font-size: 150%;
-    display: flex;
+    display: flex; 
 }
 
 .initalsLogo {/* there does need to be a logo here, I'm just not sure it should be THIS logo. it could be a single pic, or some variant on this somehow*/
@@ -245,7 +244,7 @@ body {
 
 /*Blog CSS Section*/
 
-.BlogTitle {
+.BlogTitle {/*title for the blog*/
     display: flex;
     flex-direction: row;
     margin: 1rem;
@@ -270,18 +269,18 @@ body {
     justify-content: space-evenly;
 }
 
-.PostContent {
+.PostContent {/*currently the filler text*/
     padding: auto;
     margin: 1rem;
 }
 
-.PostImage {
+.PostImage {/*formatting for the blog post images*/
     max-width: 100%;
     margin: 1rem;
     padding: auto;
 }
 
-.postTitle {
+.postTitle {/*formatting for the title of each blog post*/
     margin-left: 1rem;
     padding: auto;
 }
