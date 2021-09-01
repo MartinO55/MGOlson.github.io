@@ -1,22 +1,108 @@
 /*Need browser Breakpoints too apparently*/
-/*TODO - figure out why firefox resizes the landing page and the CV page, but not the other pages*/
+/*TODO - figure out why chrome resizes the landing page and the CV page, but not the other pages*/
 /*TODO - make sure edge and chrome stop auto starting animations*/
 
 /*Different Media Breakpoints, copied and pasted from https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp*/
- /* Extra small devices (phones, 600px and down) */
- @media only screen and (max-width: 600px) {}
+/*This setup of breakpoints makes the site work for all the available devices on chrome and firefox (except, ironically, the chrome desktop browser)*/
+/* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) 
+    {   /*Solves the issues with the big ponts being too big and the small fonts being too small*/
+        body
+        {
+        width: 90vw;/*stops content rolling off the edge*/
+        font-size: 45%;/*font on the landing page too large*/
+        padding: -16;/*for some reason the padding is 16, no matter what I do*/
+        }
+        .Heading{
+            max-width: 85%;
+            padding-right: -1rem;
+        }
+        /*Portfolio Formatting*/
+        .PortfolioProjectSection{
+            max-width: 90%;
+        }
+        .PortfolioProjectTitleSection{/*words made big enough*/
+            font-size: 240%;
+        }
+        .PortfolioProjectTitle{
+            font-size: 200%;
+        }
+        .PortfolioProjectBlurb{
+            font-size: 175%;
+        }
+        /*Blog Formatting*/
+        .PostContent{
+            font-size: 175%;
+        }
+        .postTitle{
+            font-size: 200%;
+        }
+        .ABlogPost{
+            max-width: 90%;/*keeps the border rolling off the edge*/
+        }
+        /*About Me formatting*/
+        .resumeContent{
+            font-size: 200%;
+        }
+
+    }
+
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 600px) {}
+ @media only screen and (min-width: 601px) {
+    body/*Fonts too small to read, made them bigger*/
+    {
+    width: 100%;
+    font-size: 45%;
+    }
+   .PostContent{
+        font-size: 150%;
+    }
+    .PortfolioProjectBlurb{
+        font-size: 150%;
+    }
+    .PortfolioProjectTitleSection{
+        font-size: 240%;
+    }
+    .PortfolioProjectTitle{
+        font-size: 220%;
+    }
+    .PortfolioProjectBlurb{
+        font-size: 230%;
+    }
+    .resumeContent{
+        font-size: 190%;
+    }
+ }
+
  
  /* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {}
- 
- /* Large devices (laptops/desktops, 992px and up) */
- @media only screen and (min-width: 992px) {}
- 
- /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1200px) {} 
+ @media only screen and (min-width: 768px) {
+    body{
+        width: 95%;
+    }
+    .ABlogPost{
+        max-width: 95%;
+    }
+    .PostContent{
+        font-size: 220%;
+    }
+    .postTitle{
+        font-size: 200%;
+    }
+    .PortfolioProjectTitleSection{
+        font-size: 240%;
+    }
+    .PortfolioProjectTitle{
+        font-size: 220%;
+    }
+    .PortfolioProjectBlurb{
+        font-size: 230%;
+    }
+    .resumeContent{
+        font-size: 190%;
+    }
+ }
 
 /*Universal Body Modifier*/
 body {
