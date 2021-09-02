@@ -1,9 +1,15 @@
 
-    A link (URL) to your published portfolio website
-   
+    A link (URL) to your published portfolio website - 
+    
+    To whom it concerns, Please find the live version of this portfolio located at 
+    https://hiremartinolson.netlify.app/
+    Deployed via netlify
+
+
     Description of your portfolio website, including,
         Purpose
-        to communicate and demonstrate my abilities to prospective employers
+        to communicate and demonstrate my abilities to prospective employers through the use of HTML and CSS to create a portfolio website
+        
         Functionality / features
 
         Sitemap
