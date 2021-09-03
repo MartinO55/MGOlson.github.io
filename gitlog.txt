@@ -1,0 +1,349 @@
+commit 67f6f10c514796645261b146ad491efda2bd2544
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Fri Sep 3 12:40:06 2021 +1000
+
+    readme.md completed. I think
+
+commit 1c6863b6819674d031d7d86fff79b271891a58a8
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Fri Sep 3 11:15:53 2021 +1000
+
+    finshed commenting
+
+commit a222bb7b19f725179dbc5a961df59bd467893524
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Fri Sep 3 10:53:16 2021 +1000
+
+    extended SRI to all html pages with the stylesheet
+
+commit cb1298ff3bde5e3288ddfef4ad3d6900da9026ed
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Fri Sep 3 10:47:43 2021 +1000
+
+    validated the CSS. redid the SRI to match
+
+commit e3a68ab48dd42201619242664644eb1c28f310b6
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Thu Sep 2 15:41:17 2021 +1000
+
+    SRI implemented with a SHA512 hash across all 4 HTML pages for the stylesheet
+
+commit 7eb36bdc34d51ff98dbbdcb7b27705f42ee56fa8
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Thu Sep 2 13:47:14 2021 +1000
+
+    adding possibly broken SRi to main page to see if its the local version not working - expect rollback at some point
+
+commit f7f963af5efdaf1e2f4dfec3f02cf9b165b64178
+Author: MartinO55 <cas022103@coderacademy.edu.au>
+Date:   Thu Sep 2 12:43:03 2021 +1000
+
+    started Readme.md, failed in many ways to implement SRI
+
+commit b633219c2268941691b00a3c004d200979787bc1
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Sep 1 16:05:10 2021 +1000
+
+    added comment about new breakpoint
+
+commit 17fcfafcf7c2cdcd655d4a70bfca95f045a794b9
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Sep 1 16:03:48 2021 +1000
+
+    fixed validation errors in HTML, some warnings remain due to design - classifying these as unfixable. added an additional breakpoint for the about me page which was bugging for some reason
+
+commit 9ddbac4df7e0e358088c409a146775c2a4c6546c
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Sep 1 15:28:03 2021 +1000
+
+    renamed the blog, more comments in the style sheet
+
+commit 3854b6f1561bb667618ccbb3cbe7bdf0a87a3c43
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Sep 1 15:17:07 2021 +1000
+
+    added icon to html files, added medi abreakpoints
+
+commit ac557469e88b22b1a660c6f34e98c55a0b256033
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Tue Aug 31 11:20:26 2021 +1000
+
+    merging back into main... I hope
+
+commit 60c41b983658cf2200fd317886e8f82a607cafce
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Tue Aug 31 11:05:02 2021 +1000
+
+    added media breakpoints from w3
+
+commit b247cb8c3bf458cb1b3666d7ddef55b79cf68620
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Tue Aug 31 09:58:08 2021 +1000
+
+    added contact details section with placeholder details to aboutMe page, just in case the ones alreay present weren't enough
+
+commit 6cbbfaa33d278e1904a8473d0af28d59dd6388d3
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Tue Aug 31 09:26:45 2021 +1000
+
+    solved the width issue in firefox and edge
+
+commit 8360a7989d2b18c68578b1b75df5b15546c89647
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 30 16:18:12 2021 +1000
+
+    added padding to CVsection
+
+commit 596a3fed3be1f2d58c058e1ce7280a72197adc47
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 30 15:48:36 2021 +1000
+
+    added a few more comments
+
+commit 4a462ccd0b057b543615bf77c75af1ff956cab54
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 30 15:36:09 2021 +1000
+
+    added many, many comments
+
+commit 1ee941ade9c4b6a78ea061454406d473a118579d
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 30 13:15:11 2021 +1000
+
+    added pladeholder email link
+
+commit 98d67bf70fa1debb46469655ad1b92ce49e6334f
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 30 12:39:51 2021 +1000
+
+    obsoleted BlogStyles, added animations to logo
+
+commit 1800c5c92b79933b680720c914b35feb9b169d82
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 30 12:23:20 2021 +1000
+
+    redid the navbar, now slightly more standardised and has some hover animations
+
+commit 5e0099a9caa7e15cadb58c7b4c5f34c819509984
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 30 11:28:15 2021 +1000
+
+    changed placeholder cats in the portfolio, styled them a bit
+
+commit dad855857e8557b071e1e4775d48c849a2f51481
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Sun Aug 29 14:28:34 2021 +1000
+
+    played around with the logo a bit
+
+commit a91adb28ebae46ccca3577c495303530e21b9e0f
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Sat Aug 28 15:28:41 2021 +1000
+
+    added placeholder projects to portfolio page - obsoleted blogstyle css page - changed the hover animation to work for each word in the landing page - preemptively removed some html errors from the about me section - restyled the headings in css, added section titles in the css comments
+
+commit 790ab09ba73df932271bde3362159c606ac282a2
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Fri Aug 27 16:20:56 2021 +1000
+
+    added titles to portfolio and cv page. changed placeholder colors in css sheet to hexadecimal
+
+commit edc41630e166204eacd62c78f0c8f0c3bdc83c15
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Fri Aug 27 16:05:49 2021 +1000
+
+    header copy/pasted to all pages
+
+commit 77251ceacb89664299b1dbce9a573ac0f4c414a2
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Fri Aug 27 15:44:18 2021 +1000
+
+    redid the colors on blog to match. added CSS animations to landing page. bits change color, and increase in size on :hover
+
+commit 790af9963e4e99207f4d0b3c1b8e205ab44b9412
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Fri Aug 27 13:41:21 2021 +1000
+
+    changed links to icons, changed photo from cat, added a font, added colours to CSS
+
+commit f5368587332c7421247980a6e897332766f77d4c
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Thu Aug 26 15:31:13 2021 +1000
+
+    added more comments for planning
+
+commit 469fb9a63ffbc15bc323a76c0a145551eb421b4f
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Thu Aug 26 15:16:18 2021 +1000
+
+    changed the navigation link classes to make them jump individually
+
+commit 1a810885eb96fd3963f275fc365c9c73739a7636
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Thu Aug 26 15:12:55 2021 +1000
+
+    so this is the I couldnt get the sidebar to stick to the right and the landing to stay in the center version, that just flips it around and makes it a stylistic choice
+
+commit 38f391c942c049fe0fcbf5ab4cbc8b5c7fcd059d
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Thu Aug 26 15:10:00 2021 +1000
+
+    added required 2 more HTML pages, rejiggered the index page to be the landing point with most of the content moved over to elsewhere. finished the basic CSS styling with only minor harcoding. Saving before I try a different approach that embraces the feature, not bug mindset
+
+commit 0bbe74d13fb73c65ede7d4db1411128e5b8a7434
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 22:07:15 2021 +1000
+
+    final commit of the day... not actually sure how much changed here
+
+commit c040dad796f4f082ed040445f74dd8977486d321
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 18:30:27 2021 +1000
+
+    adding a new branch (I hope) in order to redo the CSS file for the index
+
+commit de3ad0e44818e985bc5a9b1d22a2eeb095e4e5fb
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 16:14:24 2021 +1000
+
+    error checked the htmlusing w3 validator. lets pretend it always had no errors
+
+commit 4d2673567c8f7308bbd3cf253f15e706a1ff178d
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 16:02:45 2021 +1000
+
+    commented HTML and CSS files for blog. started error checking for the html
+
+commit b28b75884d85d016b4ae652da120790ff8c8a910
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 15:07:58 2021 +1000
+
+    added a link back to my profile
+
+commit c0a2a3e3ce8e5029146a014b2e387acb43c07db3
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 15:05:29 2021 +1000
+
+    So the blog is basically done - 5 posts, 5 images all re sized and re ordered with flex and given *colorful* borders. not bad for 2.5 hours really, although I could easily do better with more time, or If I had started a blog several years ago. I will try to get it into a more presentable state, but I know I don't have the time and there are more important things to do. One virtue of it's simplicity is that it just works on pretty much all devices
+
+commit 1ff5d6d1843a1a0ac450313004b1fbe039252f75
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 14:03:54 2021 +1000
+
+    formatting for blog, changed docx CV to pdf CV
+
+commit bfc1ca1e9db696541c5737795362abf7b0f13b74
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 13:41:47 2021 +1000
+
+    created blog. added separate css file for blog. added links to index sidebar as per assignment requirements
+
+commit cbdca66cc1c26cb2b5d396fd1da442c9dc42ec99
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 11:54:39 2021 +1000
+
+    added flex to CSS sheet
+
+commit c649c84f1e3e534f5b4db34d68287415e60f2328
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 11:45:06 2021 +1000
+
+    reformated elements in education section
+
+commit fe7bcf3e164fde71a882ed5a2eae62423ecc8f81
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 11:32:55 2021 +1000
+
+    added more HTML content
+
+commit 7640752d9471b0bd924091c34100b596ce4d6faf
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Wed Aug 25 11:31:57 2021 +1000
+
+    added a font from google"
+    git add .
+    git status
+    
+    git add .
+
+commit 131fca93389634ef3cf28d4099d35479a795d0b4
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Tue Aug 24 14:33:29 2021 +1000
+
+    added placeholder image to sidebar
+
+commit b2a331fd4d6a530eb78c52a3beb82c71633769d2
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Tue Aug 24 14:00:03 2021 +1000
+
+    took TODO out of education, added sizing to nameInTitle
+
+commit 080eabd3b0bfb85c318d5d063a6b7a61de9d33b5
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Tue Aug 24 13:57:05 2021 +1000
+
+    finished education section. added references to html classes in CSS sheet
+
+commit bc780f6bf6cd34e9328ce52920a6aea2432e8563
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Tue Aug 24 11:09:58 2021 +1000
+
+    added content to education section of index
+
+commit f72eefd87e5ebf744509f7a500fe7fb1b173f631
+Author: MartinO55 <cas022103@coderacademy.edu.au>
+Date:   Tue Aug 24 10:04:40 2021 +1000
+
+    Update Index.html
+    
+    Adding Sections and tags to do in future
+
+commit 170f4a8527fc5a2442d56065f1f101ce0636bc44
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 23 13:42:10 2021 +1000
+
+    fixed the typo that was making this not work. FML
+
+commit 7ed15ab006edbc6a43e712227344cd90ac4c1b3d
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 23 13:24:17 2021 +1000
+
+    more css work, specficially colors
+
+commit a5ae57acf8412acd9af8e394549d43742d629ec5
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 23 13:12:06 2021 +1000
+
+    added some css styling
+
+commit e412fd21f9dc31cfd58bc31f8bb8fe25df1caffe
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 23 12:34:34 2021 +1000
+
+    added meta to head, added first set of content to body
+
+commit c65b19784760a405d3663562279f7f989b5d0f48
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 23 11:55:50 2021 +1000
+
+    added a title
+
+commit ac12bda23364935735777399c63e3511d531057f
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 23 10:46:05 2021 +1000
+
+    added readme.md file
+
+commit 10fed2a5af5c34efa19078e415bce12a3e8e7aa5
+Author: MartinO55 <cas022103@coderacademy.edu.au>
+Date:   Mon Aug 23 10:35:28 2021 +1000
+
+    Update Index.html
+    
+    added HTML skeleton
+
+commit 828f2d4074b9d9af7a363381953c96302012bec5
+Author: Martin Olson <martinguyolson@gmail.com>
+Date:   Mon Aug 23 10:23:07 2021 +1000
+
+    created index and styles files
