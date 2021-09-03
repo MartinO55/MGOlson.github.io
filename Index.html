@@ -13,11 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <!--Need a real font-->
     <title>Martin Olson</title>
-<!---->
+
 </head>
 
 <body>
-    <header class="Heading">
+    <header class="Heading"><!--universal Navbar-->
        
         <div class="Logo">
             <!--this to be the logo-->
@@ -31,19 +31,18 @@
             <!-- Internal Navbar goes here, change liks for each page-->
             <h3 class="aboutMe"><a class="NavigationLink" href="AboutMe.html">About Me</a></h3>
             <h3 class="myProjects"><a class="NavigationLink" href="MyProjects.html">My Projects</a></h3>
-            <h3 class="myBlog"><a class="NavigationLink" href="blog.html">My Blog</a></h3>
-            <!--delete Me once the project is submitted-->
+            <h3 class="myBlog"><a class="NavigationLink" href="blog.html">My Blog</a></h3><!--delete Me once the project is submitted-->    
         </div>
     </header>
-    <main class="introPage">
-        <div class="LandingPage">
+    <main class="introPage"><!--Landing spot/Title for the site-->
+        <div class="LandingPage"><!--front and centre-->
             <h1 class="LandingPageHeading">
-                <span class="primaryHeading">Hi, </span>
+                <span class="primaryHeading">Hi, </span><!--Each word in the title so they can change colour individually-->
                 <span class="primaryHeading">I'm </span>
                 <span class="primaryHeading">Martin</span>
 
             </h1>
-            <!--front and centre-->
+            
 
             <H2 class="LandingPageblurb">
                 <span class="blurb">I </span>
@@ -57,7 +56,7 @@
 
         <!--maybe button to projects here??-->
 
-        <div class="Sidebar">
+        <div class="Sidebar"><!--sidebar with photo and social links/cv pdf/contact me-->
             <Section class="Photo">
                 <!--Maybe send the photo to the logo?-->
                 <img class="photoOfMe" src="./Photos/professionalPhoto.png" alt="MoreProfessionalPhoto" width=90>
@@ -66,16 +65,16 @@
             <Section class="SidebarLinks">
             <ul class="SocialLinks">
                 <li class="SocialLinks"><!--at some point this will have to be real and hardened against web scraping tools to avoid getting a mountain of spam-->
-                    <a href="mailto:placeholder@email.com"><img class="emailIcon" src="./IconsForLinks/emailIcon.png" alt="email Icon" width=20></a></li>
-                <!--Email link-->
-                <li class="SocialLinks">
+                    <a href="mailto:placeholder@email.com"><img class="emailIcon" src="./IconsForLinks/emailIcon.png" alt="email Icon" width=20></a></li><!--Email link-->
+                
+                <li class="SocialLinks"><!--github link-->
                     <a href="https://github.com/MartinO55"><img class="GithubLogo" src="./IconsForLinks/GithubLogo.png" alt="github Icon" width=20></a>
                 </li>
                 <!--links are fine, make these icons-->
-                <li class="SocialLinks">
+                <li class="SocialLinks"><!--Linkedin link is here-->
                     <a href="https://www.linkedin.com/in/olsonmartin/"><img class="linkedInLogo" src="./IconsForLinks/linkedinicon.png" alt="Linkedin Icon" width=20></a>
                 </li>
-                <li class="SocialLinks">
+                <li class="SocialLinks"><!--PDF copy of old resume is here-->
                     <a href="MartinOlsonCVUpdatedJan02.pdf"><img class="pdfLogo" src="./IconsForLinks/pdfIcon.png" alt ="pdf Icon" width=20></a>
                 </li>
             </ul>
