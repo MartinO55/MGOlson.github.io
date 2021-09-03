@@ -13,11 +13,11 @@
         {
         width: 90vw;/*stops content rolling off the edge*/
         font-size: 45%;/*font on the landing page too large*/
-        padding: -16;/*for some reason the padding is 16, no matter what I do*/
+        /*for some reason the padding is 16, no matter what I do*/
         }
         .Heading{
             max-width: 85%;
-            padding-right: -1rem;
+            
         }
         /*Portfolio Formatting*/
         .PortfolioProjectSection{
@@ -206,7 +206,6 @@ body {
 
 .NavigationLink:visited {
     color: #e8eaff;/*re colours the link back to white. leaving them purple seemed a bit unprofessional*/
-    text-decoration-style: none;
 }
 
 .myProjects {
@@ -245,12 +244,12 @@ body {
 
 .primaryHeading:hover {/*changes the color of all the words in the "Hi Im Martin" change colour on hover. I tried it witha all the letters, but the separation due to the separate spans made it look weird*/
     color: #6E85B2;
-    transform: 0.5s;
+    transition: 500ms;
 }
 
 .blurb:hover {/*changes the color of all the words in the "I make stuff for the web" on hover*/
     color: #5C527F;
-    transform: 0.5s;
+    transition: 500ms;
 }
 
 .Sidebar {  
@@ -264,7 +263,7 @@ body {
 }
 
 .Sidebar:hover {/*rescales the sidebar and moves it so it doesn't scale offscreen*/
-    transform: scale(220%) translateX(-1rem);
+    transform: scale(2.2) translateX(-1rem);
     transition: 1.5s;
 }
 
@@ -290,8 +289,8 @@ body {
 .SocialLinks:hover {
     /*makes the links jump and resize. cause why not*/
     transform: translateX(-2rem);
-    transform: scale(150%);
-    transition: 0.5s;
+    transform: scale(1.5);
+    transition: 500ms;
 }
 /*Formating for the link Icons*/
 .linkedInLogo {
@@ -342,13 +341,13 @@ body {
     flex-direction: row;
     max-width: 15rem;/*hard coding bad, but this made it fit, and the lorem ipsum seems to like it*/
     padding: 2rem;
-    transition: 0.5s;
+    transition: 500ms;
 }
 
 .PortfolioProject:hover{/*changes the background color for each project */
     background-color: #5C527F;
     border-radius: 10px;/*also curves the borders. theres no reason this can't be here since the border color doesn't change any other time, but if the change is really it does fade in a curve*/
-    transition: 0.5s;/*see above comment, the change is not really slow*/
+    transition: 500ms;/*see above comment, the change is not really slow*/
 }
 
 .PortfolioPic{/*currently just makes the cats a little more comfortable*/
@@ -387,17 +386,17 @@ body {
 }
 
 .PostContent {/*currently the filler text*/
-    padding: auto;
+   
     margin: 1rem;
 }
 
 .PostImage {/*formatting for the blog post images*/
     max-width: 100%;
     margin: 1rem;
-    padding: auto;
+   
 }
 
 .postTitle {/*formatting for the title of each blog post*/
     margin-left: 1rem;
-    padding: auto;
+   
 }
